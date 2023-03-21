@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 162.826 s <<< FAILURE! - in TestSuite
+vefifySafteyTextFailing(com.qburst.testing.automationcore.testng.TeslaTest)  Time elapsed: 15.617 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.qburst.testing.automationcore.testng.TeslaTest.vefifySafteyTextFailing(TeslaTest.java:34)
+

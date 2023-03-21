@@ -1,0 +1,3 @@
+com\qburst\testing\automationcore\pagemodels\web\page\objects\TeslaPage.class
+com\qburst\testing\automationcore\pagemodels\web\page\BasePage.class
+com\qburst\testing\automationcore\testng\TeslaTest.class

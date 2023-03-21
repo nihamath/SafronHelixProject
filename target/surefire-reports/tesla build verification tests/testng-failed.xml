@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [tesla build verification tests]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="appType" value="web"/>
+  <listeners>
+    <listener class-name="com.qburst.testing.automationcore.testng.listners.TestListner"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Verify Safety Text(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.qburst.testing.automationcore.testng.TeslaTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="vefifySafteyTextFailing"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.qburst.testing.automationcore.testng.TeslaTest -->
+    </classes>
+  </test> <!-- Verify Safety Text(failed) -->
+</suite> <!-- Failed suite [tesla build verification tests] -->

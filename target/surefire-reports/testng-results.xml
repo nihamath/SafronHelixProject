@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-21T17:47:18 IST" name="tesla build verification tests" finished-at="2023-03-21T17:50:00 IST" duration-ms="161529">
+    <groups>
+    </groups>
+    <test started-at="2023-03-21T17:47:18 IST" name="Verify Safety Text" finished-at="2023-03-21T17:50:00 IST" duration-ms="161529">
+      <class name="com.qburst.testing.automationcore.testng.TeslaTest">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String,java.lang.String)[pri:0, instance:com.qburst.testing.automationcore.testng.TeslaTest@515aebb0]" started-at="2023-03-21T17:47:18 IST" name="beforeSuite" finished-at="2023-03-21T17:47:18 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:com.qburst.testing.automationcore.testng.TeslaTest@515aebb0]" started-at="2023-03-21T17:47:18 IST" name="beforeTest" finished-at="2023-03-21T17:47:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qburst.testing.automationcore.testng.TeslaTest@515aebb0]" started-at="2023-03-21T17:47:18 IST" name="beforeMethod" finished-at="2023-03-21T17:47:22 IST" duration-ms="3629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="vefifySafteyText()[pri:0, instance:com.qburst.testing.automationcore.testng.TeslaTest@515aebb0]" started-at="2023-03-21T17:47:22 IST" name="vefifySafteyText" description="Safety Text Verification on product description page" finished-at="2023-03-21T17:49:40 IST" duration-ms="138310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vefifySafteyText -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qburst.testing.automationcore.testng.TeslaTest@515aebb0]" started-at="2023-03-21T17:49:41 IST" name="afterMethod" finished-at="2023-03-21T17:49:41 IST" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qburst.testing.automationcore.testng.TeslaTest@515aebb0]" started-at="2023-03-21T17:49:41 IST" name="beforeMethod" finished-at="2023-03-21T17:49:44 IST" duration-ms="2312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="vefifySafteyTextFailing()[pri:0, instance:com.qburst.testing.automationcore.testng.TeslaTest@515aebb0]" started-at="2023-03-21T17:49:44 IST" name="vefifySafteyTextFailing" description="Safety Text Verification on product description page" finished-at="2023-03-21T17:49:59 IST" duration-ms="15318" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.qburst.testing.automationcore.testng.TeslaTest.vefifySafteyTextFailing(TeslaTest.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vefifySafteyTextFailing -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qburst.testing.automationcore.testng.TeslaTest@515aebb0]" started-at="2023-03-21T17:49:59 IST" name="afterMethod" finished-at="2023-03-21T17:50:00 IST" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qburst.testing.automationcore.testng.TeslaTest@515aebb0]" started-at="2023-03-21T17:50:00 IST" name="tearDown" finished-at="2023-03-21T17:50:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qburst.testing.automationcore.testng.TeslaTest -->
+    </test> <!-- Verify Safety Text -->
+  </suite> <!-- tesla build verification tests -->
+</testng-results>

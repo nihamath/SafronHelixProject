@@ -1,0 +1,23 @@
+[INFO ] 2023-03-21 17:47:18.907 [main] TestListner - Starting execution of Suite: tesla build verification tests
+[WARN ] 2023-03-21 17:47:18.912 [main] Config - Default test configuration initialization. TestNG suite xml parameters will override this configuration
+[INFO ] 2023-03-21 17:47:18.914 [main] Config - testconfig.properties found in test resources. Initializing test config parameters as System Properties
+[WARN ] 2023-03-21 17:47:18.933 [main] Config - Default test configuration initialization. TestNG suite xml parameters will override this configuration
+[INFO ] 2023-03-21 17:47:18.934 [main] Config - testconfig.properties found in test resources. Initializing test config parameters as System Properties
+[INFO ] 2023-03-21 17:47:18.937 [TestNG-tests-1] TestListner - Starting execution of Test Set: Verify Safety Text
+[INFO ] 2023-03-21 17:47:18.960 [TestNG-tests-1] FirefoxBrowserDriver - Opening firefox browser
+[INFO ] 2023-03-21 17:47:22.586 [TestNG-tests-1] TestListner - Starting execution of Test: vefifySafteyText
+[INFO ] 2023-03-21 17:47:22.817 [TestNG-tests-1] ParentDriver - Navigate to application url : https://tesla.com
+[DEBUG] 2023-03-21 17:47:27.832 [TestNG-tests-1] ExtentReport - Navigate to the application url: https://tesla.com
+[DEBUG] 2023-03-21 17:49:28.556 [TestNG-tests-1] ExtentReport - Select Model 3 from the list
+[DEBUG] 2023-03-21 17:49:38.826 [TestNG-tests-1] ExtentReport - Scroll to view the saftey text
+[INFO ] 2023-03-21 17:49:41.166 [TestNG-tests-1] TestListner - End of Test: vefifySafteyText : Passed
+[INFO ] 2023-03-21 17:49:41.744 [TestNG-tests-1] FirefoxBrowserDriver - Opening firefox browser
+[INFO ] 2023-03-21 17:49:44.056 [TestNG-tests-1] TestListner - Starting execution of Test: vefifySafteyTextFailing
+[INFO ] 2023-03-21 17:49:44.057 [TestNG-tests-1] ParentDriver - Navigate to application url : https://tesla.com
+[DEBUG] 2023-03-21 17:49:45.817 [TestNG-tests-1] ExtentReport - Navigate to the application url: https://tesla.com
+[DEBUG] 2023-03-21 17:49:48.614 [TestNG-tests-1] ExtentReport - Select Model 3 from the list
+[DEBUG] 2023-03-21 17:49:58.809 [TestNG-tests-1] ExtentReport - Scroll to view the saftey text
+[ERROR] 2023-03-21 17:49:59.661 [TestNG-tests-1] TestListner - End of Test: vefifySafteyTextFailing : Failed
+[ERROR] 2023-03-21 17:49:59.665 [TestNG-tests-1] TestListner - java.lang.AssertionError: expected [true] but found [false]
+[INFO ] 2023-03-21 17:50:00.467 [TestNG-tests-1] TestListner - End of Test Set: Verify Safety Text
+[INFO ] 2023-03-21 17:50:00.788 [main] TestListner - End of Suite: tesla build verification tests
